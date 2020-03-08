@@ -1,0 +1,17 @@
+{
+  "name": "prettier-plugin-hbs",
+  "version": "1.0.1",
+  "description": "Prettier plugin for handlebar files (Ember.js templates)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/index.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@glimmer/syntax": "^0.47.9"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  }
+}
