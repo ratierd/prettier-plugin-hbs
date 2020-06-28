@@ -6,7 +6,7 @@ let languages = [
     name: 'Handlebars',
     extensions: ['.hbs'],
     parsers: ['hbs']
-  },
+  }
 ];
 
 module.exports = {
