@@ -4,19 +4,20 @@ let GlimmerPrinter = require('./printer');
 let languages = [
   {
     name: 'Handlebars',
-    parsers: ['hbs']
-  }
+    extensions: ['.hbs'],
+    parsers: ['hbs'],
+  },
 ];
 
 module.exports = {
   languages,
   parsers,
   printers: {
-    hbs: GlimmerPrinter
+    hbs: GlimmerPrinter,
   },
   options: {},
   defaultOptions: {
     singleQuote: true,
-    tabWidth: 2
-  }
+    tabWidth: 2,
+  },
 };
