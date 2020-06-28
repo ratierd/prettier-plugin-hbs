@@ -13,7 +13,7 @@ module.exports = {
   languages,
   parsers,
   printers: {
-    hbs: GlimmerPrinter,
+    hbs: GlimmerPrinter
   },
   options: {},
   defaultOptions: {
