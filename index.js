@@ -5,7 +5,7 @@ let languages = [
   {
     name: 'Handlebars',
     extensions: ['.hbs'],
-    parsers: ['hbs'],
+    parsers: ['hbs']
   },
 ];
 
@@ -18,6 +18,6 @@ module.exports = {
   options: {},
   defaultOptions: {
     singleQuote: true,
-    tabWidth: 2,
-  },
+    tabWidth: 2
+  }
 };
