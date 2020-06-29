@@ -4,6 +4,7 @@ let GlimmerPrinter = require('./printer');
 let languages = [
   {
     name: 'Handlebars',
+    extensions: ['.hbs'],
     parsers: ['hbs']
   }
 ];

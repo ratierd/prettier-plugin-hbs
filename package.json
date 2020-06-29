@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@glimmer/syntax": "^0.47.9"
+    "@glimmer/syntax": "^0.54"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^2.0.5"
   }
 }
